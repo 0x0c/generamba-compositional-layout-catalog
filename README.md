@@ -25,4 +25,4 @@ templates:
 # Dependencies
 
 - [CompositionalLayoutViewController](https://github.com/oneinc-jp/CompositionalLayoutViewController)
-- [ViperCompositionalLayoutViewControllerExtension](https://github.com/0x0c/ViperCompositionalLayoutViewControllerExtension)
+- [CompositionalLayoutViewControllerViperExtension](https://github.com/0x0c/CompositionalLayoutViewControllerViperExtension)
