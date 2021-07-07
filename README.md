@@ -11,7 +11,7 @@ It's a shared catalog of templates for [Generamba](https://github.com/strongself
 catalogs:
 - 'https://github.com/0x0c/generamba-compositional-layout-catalog'
 templates:
-- {name: viper-compositional-layout-view-controller}
+- {name: 0x0c_viper_compositional_layout_view_controller}
 ```
 
 2. Run `generamba template install` .
