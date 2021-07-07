@@ -21,3 +21,7 @@ templates:
 ## Templates
 
 - [viper-compositional-layout-view-controller](https://github.com/oneinc-jp/generamba-compositional-layout-catalog/blob/main/viper-compositional-layout-view-controller/0x0c_viper_compositional_layout_view_controller.rambaspec)
+
+# Dependencies
+
+- [CompositionalLayoutViewController](https://github.com/oneinc-jp/CompositionalLayoutViewController)
