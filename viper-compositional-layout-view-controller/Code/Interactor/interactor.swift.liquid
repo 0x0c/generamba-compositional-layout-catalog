@@ -1,0 +1,36 @@
+//
+//  {{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import CompositionalLayoutViewController
+import Foundation
+
+protocol {{ module_info.name }}InteractorInput: CollectionViewInteractorInput {
+    // MARK: Methods for modifying repository
+}
+
+protocol {{ module_info.name }}InteractorOutput: AnyObject {
+    // MARK: Callback methods from repository
+}
+
+class {{ module_info.name }}Interactor {
+    // MARK: VIPER property
+    weak var presenter: {{ module_info.name }}InteractorOutput!
+
+    // MARK: Stored instance properties
+    var sections: [CollectionViewSection] = []
+
+    // MARK: Computed instance properties
+
+    // MARK: Initializer
+    
+    init() {}
+
+    // MARK: Other private methods
+}
+
+extension {{ module_info.name }}Interactor: {{ module_info.name }}InteractorInput {}

@@ -1,0 +1,52 @@
+//
+//  {{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import CompositionalLayoutViewController
+import UIKit
+
+protocol {{ module_info.name }}PresenterInput: CollectionViewPresenterInput {
+    // MARK: View Life-Cycle methods
+
+    func viewDidLoad()
+
+    // MARK: Other methods called from View
+}
+
+class {{ module_info.name }}Presenter {
+    // MARK: VIPER properties
+
+    weak var view: {{ module_info.name }}ViewInput!
+    var interactor: {{ module_info.name }}InteractorInput!
+    var router: {{ module_info.name }}RouterInput!
+
+    // MARK: Stored instance properties
+
+    // MARK: Computed instance properties
+
+    init(view: {{ module_info.name }}ViewInput, interactor: {{ module_info.name }}InteractorInput, router: {{ module_info.name }}RouterInput) {
+        self.view = view
+        self.interactor = interactor
+        self.router = router
+    }
+}
+
+extension {{ module_info.name }}Presenter: {{ module_info.name }}PresenterInput {
+    var sections: [CollectionViewSection] {
+        return interactor.sections
+    }
+
+    func viewDidLoad() {
+        // TODO: Implement if needed
+    }
+
+    func section(for sectionIndex: Int) -> CollectionViewSection {
+        return interactor.section(for: sectionIndex)
+    }
+}
+
+extension {{ module_info.name }}Presenter: {{ module_info.name }}InteractorOutput {}
