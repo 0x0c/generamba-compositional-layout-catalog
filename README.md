@@ -1,4 +1,4 @@
-# generamba-viper-compositional-layout-view-controller-catalog
+# generamba-compositional-layout-catalog
 
 It's a shared catalog of templates for [Generamba](https://github.com/strongself/Generamba) code generator.
 
@@ -11,7 +11,7 @@ It's a shared catalog of templates for [Generamba](https://github.com/strongself
 catalogs:
 - 'https://github.com/0x0c/generamba-compositional-layout-catalog'
 templates:
-- {name: viper-compositional-layout-view-controller}
+- {name: 0x0c_viper_compositional_layout}
 ```
 
 2. Run `generamba template install` .
@@ -20,9 +20,9 @@ templates:
 
 ## Templates
 
-- [viper-compositional-layout-view-controller](https://github.com/oneinc-jp/generamba-compositional-layout-catalog/blob/main/viper-compositional-layout-view-controller/0x0c_viper_compositional_layout_view_controller.rambaspec)
+- [compositional-layout](https://github.com/oneinc-jp/generamba-compositional-layout-catalog/blob/main/viper-compositional-layout-view-controller/0x0c_viper_compositional_layout.rambaspec)
 
 # Dependencies
 
 - [CompositionalLayoutViewController](https://github.com/oneinc-jp/CompositionalLayoutViewController)
-- [ViperCompositionalLayoutViewControllerExtension](https://github.com/0x0c/ViperCompositionalLayoutViewControllerExtension)
+- [CompositionalLayoutViewControllerViperExtension](https://github.com/0x0c/CompositionalLayoutViewControllerViperExtension)
