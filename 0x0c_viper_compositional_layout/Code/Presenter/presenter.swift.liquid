@@ -47,6 +47,10 @@ extension {{ module_info.name }}Presenter: {{ module_info.name }}PresenterInput 
     func section(for sectionIndex: Int) -> CollectionViewSection {
         return interactor.section(for: sectionIndex)
     }
+
+    func didItemSelect(indexPath: IndexPath) {
+        // TODO:
+    }
 }
 
 extension {{ module_info.name }}Presenter: {{ module_info.name }}InteractorOutput {}
