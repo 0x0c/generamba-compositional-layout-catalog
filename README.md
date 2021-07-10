@@ -20,7 +20,7 @@ templates:
 
 ## Templates
 
-- [compositional-layout](https://github.com/oneinc-jp/generamba-compositional-layout-catalog/blob/main/viper-compositional-layout-view-controller/0x0c_viper_compositional_layout.rambaspec)
+- [compositional-layout](https://github.com/oneinc-jp/generamba-compositional-layout-catalog/blob/main/0x0c_viper_compositional_layout/0x0c_viper_compositional_layout.rambaspec)
 
 # Dependencies
 
