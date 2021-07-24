@@ -14,7 +14,7 @@ protocol {{ module_info.name }}ViewInput: CollectionViewInput {
     // MARK: Callback from presenter
 }
 
-class {{ module_info.name }}ViewController: CompositionalLayoutViewController {
+final class {{ module_info.name }}ViewController: CompositionalLayoutViewController {
     // MARK: Stored instance properties
 
     var presenter: {{ module_info.name }}PresenterInput!

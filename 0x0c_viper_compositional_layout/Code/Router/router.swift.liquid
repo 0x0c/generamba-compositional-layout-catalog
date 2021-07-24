@@ -12,7 +12,7 @@ protocol {{ module_info.name }}RouterInput: AnyObject {
     // MARK: View transitions
 }
 
-class {{ module_info.name }}Router {
+final class {{ module_info.name }}Router {
     private unowned let viewController: {{ module_info.name }}ViewController
 
     init(viewController: {{ module_info.name }}ViewController) {

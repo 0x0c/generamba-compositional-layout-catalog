@@ -18,7 +18,7 @@ protocol {{ module_info.name }}InteractorOutput: AnyObject {
     // MARK: Callback methods from repository
 }
 
-class {{ module_info.name }}Interactor {
+final class {{ module_info.name }}Interactor {
     // MARK: VIPER property
     weak var presenter: {{ module_info.name }}InteractorOutput!
 
