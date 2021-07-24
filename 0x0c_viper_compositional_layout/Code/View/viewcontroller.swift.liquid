@@ -27,6 +27,7 @@ final class {{ module_info.name }}ViewController: CompositionalLayoutViewControl
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        provider = self
         presenter.viewDidLoad()
     }
 
