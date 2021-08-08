@@ -43,5 +43,6 @@ extension {{ module_info.name }}ViewController: SectionProvider {
 extension {{ module_info.name }}ViewController: {{module_info.name}}ViewInput {
     func update(sections: [CollectionViewSection]) {
         // TODO:
+        updateDataSource(sections)
     }
 }
